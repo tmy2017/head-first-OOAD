@@ -10,7 +10,7 @@ public class Inventory {
   }
 
   public void addGuitar(String serialNumber, double price,
-                        String builder, String model,
+                        Builder builder, String model,
                         Type type, String backWood, String topWood) {
     Guitar guitar = new Guitar(serialNumber, price, builder,
                                model, type, backWood, topWood);
@@ -30,7 +30,7 @@ public class Inventory {
       Guitar guitar = (Guitar)i.next();
       // Ignore serial number since that's unique
       // Ignore price since that's unique
-      String builder = searchGuitar.getBuilder();
+      Builder builder = searchGuitar.getBuilder();
       if ((builder != null) && (!builder.equals("")) &&
           (!builder.equals(guitar.getBuilder())))
         continue;
@@ -39,7 +39,7 @@ public class Inventory {
           (!model.equals(guitar.getModel())))
         continue;
       Type type = searchGuitar.getType();
-      if ((type != null) && (!searchGuitar.equals("")) &&
+      if ((type != null) && (!type.equals("")) &&
           (!type.equals(guitar.getType())))
         continue;
       String backWood = searchGuitar.getBackWood();

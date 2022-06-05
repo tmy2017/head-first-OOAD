@@ -1,7 +1,7 @@
 public class Guitar {
 
   private String serialNumber;
-  private String builder;
+  private Builder builder;
   private String model;
   private Type type;
   private String backWood;
@@ -9,7 +9,7 @@ public class Guitar {
   private double price;
 
   public Guitar(String serialNumber, double price,
-                String builder, String model, Type type,
+                Builder builder, String model, Type type,
                 String backWood, String topWood) {
     this.serialNumber = serialNumber;
     this.price = price;
@@ -30,7 +30,7 @@ public class Guitar {
   public void setPrice(float newPrice) {
     this.price = newPrice;
   }
-  public String getBuilder() {
+  public Builder getBuilder() {
     return builder;
   }
   public String getModel() {
