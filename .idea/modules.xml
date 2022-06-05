@@ -2,8 +2,10 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/chapter01/ricksGuitars-encapsulation/ricksGuitars-encapsulation.iml" filepath="$PROJECT_DIR$/chapter01/ricksGuitars-encapsulation/ricksGuitars-encapsulation.iml" />
-      <module fileurl="file://$PROJECT_DIR$/chapter01/ricksGuitars-start/ricksGuitars-start.iml" filepath="$PROJECT_DIR$/chapter01/ricksGuitars-start/ricksGuitars-start.iml" />
+      <module fileurl="file://$PROJECT_DIR$/chapter01/ricksGuitars-start/11-ricksGuitars-start.iml" filepath="$PROJECT_DIR$/chapter01/ricksGuitars-start/11-ricksGuitars-start.iml" />
+      <module fileurl="file://$PROJECT_DIR$/chapter01/ricksGuitars-choices/12-ricksGuitars-choices.iml" filepath="$PROJECT_DIR$/chapter01/ricksGuitars-choices/12-ricksGuitars-choices.iml" />
+      <module fileurl="file://$PROJECT_DIR$/chapter01/ricksGuitars-encapsulation/13-ricksGuitars-encapsulation.iml" filepath="$PROJECT_DIR$/chapter01/ricksGuitars-encapsulation/13-ricksGuitars-encapsulation.iml" />
+      <module fileurl="file://$PROJECT_DIR$/chapter01/ricksGuitars-final/14-ricksGuitars-final.iml" filepath="$PROJECT_DIR$/chapter01/ricksGuitars-final/14-ricksGuitars-final.iml" />
     </modules>
   </component>
 </project>
