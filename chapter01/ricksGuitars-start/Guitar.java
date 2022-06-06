@@ -5,12 +5,12 @@ public class Guitar {
   private String model;
   private Type type;
   private BackWood backWood;
-  private String topWood;
+  private TopWoord topWood;
   private double price;
 
   public Guitar(String serialNumber, double price,
                 Builder builder, String model, Type type,
-                BackWood backWood, String topWood) {
+                BackWood backWood, TopWoord topWood) {
     this.serialNumber = serialNumber;
     this.price = price;
     this.builder = builder;
@@ -42,7 +42,7 @@ public class Guitar {
   public BackWood getBackWood() {
     return backWood;
   }
-  public String getTopWood() {
+  public TopWoord getTopWood() {
     return topWood;
   }
 }
