@@ -11,7 +11,7 @@ public class Inventory {
 
   public void addGuitar(String serialNumber, double price,
                         Builder builder, String model,
-                        Type type, String backWood, String topWood) {
+                        Type type, BackWood backWood, String topWood) {
     Guitar guitar = new Guitar(serialNumber, price, builder,
                                model, type, backWood, topWood);
     guitars.add(guitar);
@@ -42,7 +42,7 @@ public class Inventory {
       if ((type != null) && (!type.equals("")) &&
           (!type.equals(guitar.getType())))
         continue;
-      String backWood = searchGuitar.getBackWood();
+      BackWood backWood = searchGuitar.getBackWood();
       if ((backWood != null) && (!backWood.equals("")) &&
           (!backWood.equals(guitar.getBackWood())))
         continue;
